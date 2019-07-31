@@ -1,0 +1,3 @@
+ruby255node8:
+  build: .
+  command: ls -la /usr/local/bin

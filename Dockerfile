@@ -23,7 +23,7 @@ RUN set -ex \
     gpg --keyserver pool.sks-keyservers.net --recv-keys "$key" ; \
   done
 
-ENV NODE_MAJOR 8
+ENV NODE_MAJOR 12
 
 RUN NODE_VERSION=$(curl -SL "https://nodejs.org/dist/index.tab" \
   | grep "^v$NODE_MAJOR" \
